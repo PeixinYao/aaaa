@@ -1,0 +1,47 @@
+
+
+#card-body{
+    text-align:  center;
+
+}
+
+#card-body img {
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+}
+@media only screen and (max-width: 1024px) {
+    #section1{
+      height: 50%;
+    }
+    #section1 h1{
+      font-size: 15px;
+    }
+    #section1 .card-text{
+      font-size: 10px;
+    }
+  
+  }
+  @media only screen and (max-width: 768px) {
+    #section1{
+      height: 75%;
+    }
+    #section1 .card .card-img-overlay .card-title{
+      font-size: 15px;
+    }
+    #section1 .card .card-img-overlay .card-text{
+      display: none;
+      
+    }
+    #section1 .card .card-img-overlay button{
+      height: 25px;
+      font-size: 8px;
+      
+    }
+  
+    #section2 {
+      height: 1700px;
+  
+    }
+  }
+  
